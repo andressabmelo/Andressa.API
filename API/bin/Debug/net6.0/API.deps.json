@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "API/1.0.0": {
         "dependencies": {
+          "BLL": "1.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "5.0.10",
           "Microsoft.EntityFrameworkCore.Design": "5.0.10",
           "Swashbuckle.AspNetCore": "6.2.3"
@@ -211,7 +212,12 @@
       },
       "System.Collections.Immutable/5.0.0": {},
       "System.ComponentModel.Annotations/5.0.0": {},
-      "System.Diagnostics.DiagnosticSource/5.0.1": {}
+      "System.Diagnostics.DiagnosticSource/5.0.1": {},
+      "BLL/1.0.0": {
+        "runtime": {
+          "BLL.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -422,6 +428,11 @@
       "sha512": "sha512-uXQEYqav2V3zP6OwkOKtLv+qIi6z3m1hsGyKwXX7ZA7htT4shoVccGxnJ9kVRFPNAsi1ArZTq2oh7WOto6GbkQ==",
       "path": "system.diagnostics.diagnosticsource/5.0.1",
       "hashPath": "system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+    },
+    "BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

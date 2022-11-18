@@ -5,8 +5,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Mvc.Controllers;
-
-
+using BLL.Interface;
+using BLL;
 namespace API
 {
     public class Startup
@@ -37,7 +37,8 @@ namespace API
 
         private static void RealizarInjecaoDeDependenciasBLL(IServiceCollection services)
         {
-            //services.AddScoped<ITipoBLL, TipoBLL>();
+            services.AddScoped<IMusicaBLL, LouvorBLL>();
+            
         }
 
         private static void RealizarInjecaoDeDependenciasDAL(IServiceCollection services)
@@ -49,7 +50,7 @@ namespace API
         {
             services.AddSwaggerGen(options =>
             {
-                options.SwaggerDoc("v1", new OpenApiInfo { Title = "Biblioteca Viva API", Version = "v1" });
+                options.SwaggerDoc("v1", new OpenApiInfo { Title = "Andressa API", Version = "v1" });
                 options.CustomOperationIds(d => (d.ActionDescriptor as ControllerActionDescriptor)?.ActionName);
             });
         }

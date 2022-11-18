@@ -34,3 +34,5 @@
 /home/andressa/Projetos/Andressa.API/API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
 /home/andressa/Projetos/Andressa.API/API/bin/Debug/net6.0/Newtonsoft.Json.dll
 /home/andressa/Projetos/Andressa.API/API/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
+/home/andressa/Projetos/Andressa.API/API/bin/Debug/net6.0/BLL.dll
+/home/andressa/Projetos/Andressa.API/API/bin/Debug/net6.0/BLL.pdb

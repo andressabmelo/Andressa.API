@@ -1,0 +1,10 @@
+/home/andressa/Projetos/Andressa.API/BLL/bin/Debug/netstandard2.1/BLL.deps.json
+/home/andressa/Projetos/Andressa.API/BLL/bin/Debug/netstandard2.1/BLL.dll
+/home/andressa/Projetos/Andressa.API/BLL/bin/Debug/netstandard2.1/BLL.pdb
+/home/andressa/Projetos/Andressa.API/BLL/obj/Debug/netstandard2.1/BLL.csproj.AssemblyReference.cache
+/home/andressa/Projetos/Andressa.API/BLL/obj/Debug/netstandard2.1/BLL.GeneratedMSBuildEditorConfig.editorconfig
+/home/andressa/Projetos/Andressa.API/BLL/obj/Debug/netstandard2.1/BLL.AssemblyInfoInputs.cache
+/home/andressa/Projetos/Andressa.API/BLL/obj/Debug/netstandard2.1/BLL.AssemblyInfo.cs
+/home/andressa/Projetos/Andressa.API/BLL/obj/Debug/netstandard2.1/BLL.csproj.CoreCompileInputs.cache
+/home/andressa/Projetos/Andressa.API/BLL/obj/Debug/netstandard2.1/BLL.dll
+/home/andressa/Projetos/Andressa.API/BLL/obj/Debug/netstandard2.1/BLL.pdb
