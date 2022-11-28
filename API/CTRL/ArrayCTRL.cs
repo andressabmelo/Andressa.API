@@ -54,5 +54,31 @@ namespace API.CTRL
             retorno[1][1]=4;
             return retorno;
         }
+        [HttpPost("ListaDeNomes")]
+        public List<string> ListaDeNomes(string nome)
+        {
+            var retorno= new List<string>();
+            retorno.Add("Andressa");
+            retorno.Add("Margarete");
+            retorno.Add("Leonel");
+            retorno.Add("Sophia");
+            retorno.Add("Maria");
+            retorno.Add("Jheniffer");
+            retorno.Add("Rodrigo");
+            retorno.Add("Estéfani");
+            retorno.Add("Mateus");
+            retorno.Add("Vagner");
+            retorno.Add("Nicolas");
+            retorno.Add("William");
+            retorno.Add("Calu");
+            retorno.Add("Cacau");
+            retorno.Add("Rei");
+            retorno.Add("Branca");
+            retorno.Add("Fredy");
+            retorno.Add("Beti");
+            retorno.Add("Guri");
+            retorno.Add("Pandora");
+            return retorno.OrderBy(nome => nome).ToList();
+        }
     }
 }
