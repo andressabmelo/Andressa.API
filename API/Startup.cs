@@ -38,7 +38,7 @@ namespace API
         private static void RealizarInjecaoDeDependenciasBLL(IServiceCollection services)
         {
             services.AddScoped<IMusicaBLL, LouvorBLL>();
-            
+            services.AddScoped<IArrayBLL, ArrayBLL>();
         }
 
         private static void RealizarInjecaoDeDependenciasDAL(IServiceCollection services)
